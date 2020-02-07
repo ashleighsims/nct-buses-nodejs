@@ -1,0 +1,42 @@
+{
+  "busTimes": [
+    {
+      "name": "line",
+      "message": "Bus Number",
+      "warning": "You must enter a line number... i.e 27",
+      "required": true
+    },
+    {
+      "name": "direction",
+      "message": "Direction (inbound or outbound)",
+      "warning": "You must enter a direction. Either 'inbound' or 'outbound' (without the '')",
+      "required": true
+    }
+  ],
+  "findMyBusStop": [
+    {
+      "name": "line",
+      "message": "Bus Number",
+      "warning": "You must enter a line number... i.e 27",
+      "required": true
+    },
+    {
+      "name": "direction",
+      "message": "Direction (inbound or outbound)",
+      "warning": "You must enter a direction. Either 'inbound' or 'outbound' (without the '')",
+      "required": true
+    },
+    {
+      "name": "stop",
+      "message": "Stop Name (Where you want to get on)",
+      "warning": "You must enter a stop name to search for",
+      "required": true
+    }
+  ],
+  "addStopToFavourites": [
+    {
+      "name": "addToFavourites",
+      "message": "Add to favourites? (Yes or no)"
+    }
+  ]
+}

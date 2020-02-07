@@ -1,0 +1,17 @@
+{
+    "outbound": {
+        "25": {
+            "name":"City, King Street K3",
+            "code": "3390K3"
+        }
+    },
+    "inbound": {
+        "25": {
+            "name": "Westdale La E, Ramsdale Rd",
+            "code": "3300GE0192"
+        }
+    },
+    "results": {
+        "filter": 6
+    }
+}

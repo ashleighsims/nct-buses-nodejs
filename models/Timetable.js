@@ -17,7 +17,18 @@ class Timetable {
   }
 
   isLate = (aimedArrival, expectedArrival) => {
-    return moment(expectedArrival).isAfter(aimedArrival) ? `Running Late (aimed: ${formatTime(expectedArrival)})` : 'On Time';
+    const expected = moment(expectedArrival);
+    const aimed = moment(aimedArrival);
+
+    let lateString = "";
+    let lateDuration = "";
+
+    if(moment(expectedArrival).isAfter(aimedArrival)) {
+      lateDuration = expected.diff(aimed, 'minutes');
+      lateString = `${lateDuration} ${lateDuration > 1 ? 'minutes' : 'minute'}`;
+    }
+
+    return moment(expectedArrival).isAfter(aimedArrival) ? `Running Late by ${lateString} (aimed: ${formatTime(expectedArrival)})` : 'On Time';
   };
 }
 

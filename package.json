@@ -2,6 +2,10 @@
   "name": "nctbuses",
   "version": "1.0.0",
   "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ashleighsims/nct-buses-nodejs.git"
+  },
   "main": "BusTimes.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

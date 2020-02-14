@@ -6,6 +6,9 @@
     "type": "git",
     "url": "git://github.com/ashleighsims/nct-buses-nodejs.git"
   },
+  "engines": {
+    "node": ">=12.0.0"
+  },
   "main": "BusTimes.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -6,14 +6,14 @@ Change the name of `config.example.json` to `config.json`. Add values to the `ou
 
 #### Sample Result from FindMyBusStop
 
-| (index) | stop                   | line     | expectedArrival     | expectedDeparture | displayTime |
-|---------|:----------------------:|:--------:|:-------------------:|:-----------------:|------------:|
-|    0    | 'City, King Street K3' |   '27'   |     '17:42:03'      |   '17:42:03'      | '15 mins'   |
-|    1    | 'City, King Street K3' |   '27'   |     '17:45:00'      |   '17:45:00'      | '18 mins'   |
-|    2    | 'City, King Street K3' |   '27'   |     '17:55:00'      |   '17:55:00'      | '28 mins'   |
-|    3    | 'City, King Street K3' |   '27'   |     '18:05:00'      |   '18:05:00'      | '38 mins'   |
-|    4    |          'City'        |   '27'   |  'No time provided' |   '17:42:03'      | '18:35'     |
-|    5    |          'City'        |   '27'   |  'No time provided' |   '17:42:03'      | '18:35'     |
+| (index) | stop                   | line     | expectedArrival     | expectedDeparture | displayTime | late         | isRealTime |
+|---------|:----------------------:|:--------:|:-------------------:|:-----------------:|------------:|------------:|------------:|
+|    0    | 'City, King Street K3' |   '27'   |     '17:42:03'      |   '17:42:03'      | '15 mins'   | 'On Time'   | 'Yes'       |
+|    1    | 'City, King Street K3' |   '27'   |     '17:45:00'      |   '17:45:00'      | '18 mins'   | 'On Time'   | 'Yes'       |
+|    2    | 'City, King Street K3' |   '27'   |     '17:55:00'      |   '17:55:00'      | '28 mins'   | 'On Time'   | 'Yes'       |
+|    3    | 'City, King Street K3' |   '27'   |     '18:05:00'      |   '18:05:00'      | '38 mins'   | 'On Time'   | 'Yes'       |
+|    4    |          'City'        |   '27'   |  'No time provided' |   '17:42:03'      | '18:35'     | 'On Time'   | 'Yes'       |
+|    5    |          'City'        |   '27'   |  'No time provided' |   '17:42:03'      | '18:35'     | 'On Time'   | 'Yes'       |
 
 #### Sample Result from BusTimes
 
